@@ -1,0 +1,43 @@
+/* Center logo better and control its size */
+.logo {
+  height: 90px;
+  width: auto;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffe3;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  color: #fa5053;
+}
+
+body {
+  color: #ffffe3;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #ccc;
+}
+
+#formHeader {
+  color: #50befa;
+}
+
+#buttonStyl {
+  color: #ffffe3;
+  background-color: #50befa;
+  font-weight: bold;
+}
+
+#buttonStyl:hover {
+  background-color: #fa5053;
+}
+
+#error {
+  text-align: center;
+}

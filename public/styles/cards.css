@@ -1,0 +1,37 @@
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+  background-color: #ffffe3;
+  margin-top: 10px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  cursor: pointer;
+  box-shadow: 0 10px 1px #50befa;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+h1{
+    color: #50befa;
+}
+
+h2{
+    color: #50befa;
+}
+
+.rounded-circle {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+}
+
+.rounded-circle:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
